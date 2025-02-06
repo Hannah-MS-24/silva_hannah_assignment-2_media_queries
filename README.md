@@ -1,4 +1,4 @@
-# silva_hanna_assignment-2_media_queries
+# silva_hannah_assignment-2_media_queries
 
 This project demonstrates a responsive grid layout using CSS Grid and media queries. The layout adapts to different screen sizes by adjusting the column spans of various sections, ensuring a flexible and user-friendly design.
 
