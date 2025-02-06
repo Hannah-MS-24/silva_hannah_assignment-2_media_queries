@@ -1,0 +1,223 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.grid-con {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+ 
+ }
+
+ #main-logo {
+    background-color: lightgray;
+    color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.0rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease; 
+}
+
+#main-logo:hover {
+    background-color: darkgray; 
+    color: white; 
+    transform: scale(1.05); 
+}
+
+#main-nav {
+    background-color: lightsalmon;
+    color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.0rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;  
+}
+
+#main-nav:hover {
+    background-color: darksalmon;
+    color: white;
+    transform: scale(1.05);
+}
+
+.box-1 {
+    background-color: pink;
+    color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.0rem;
+    text-align: center;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    transition: all 0.3s ease;
+  }
+
+.box-1:hover {
+    background-color: darkpink; 
+    color: white;  
+    transform: scale(1.1);
+}
+
+.box-2 {
+    background-color: red;
+    color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.0rem;
+    text-align: center;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    transition: all 0.3s ease;
+}
+
+.box-2:hover {
+    background-color: darkred; 
+    color: white;  
+    transform: scale(1.1);
+}
+
+.box-3 {
+    display: none;
+}
+
+.box-4 {
+    display: none;
+}
+
+  @media screen and (min-width:  641px) {
+    #main-logo {
+        background-color: lightgray;
+        color: rgb(27, 27, 27);
+        border-radius: 5px;
+        padding: 25px;
+        font-size: 1.5rem;
+        text-align: center;
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: all 0.3s ease; 
+    }
+    
+    #main-logo:hover {
+        background-color: darkgray; 
+        color: white; 
+        transform: scale(1.05); 
+    }
+    
+    #main-nav {
+        background-color: lightsalmon;
+        color: rgb(27, 27, 27);
+        border-radius: 5px;
+        padding: 25px;
+        font-size: 1.5rem;
+        text-align: center;
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: all 0.3s ease;  
+    }
+    
+    #main-nav:hover {
+        background-color: darksalmon;
+        color: white;
+        transform: scale(1.05);
+    }
+
+    .box-1 {
+        background-color: blue;
+        color: rgb(27, 27, 27);
+        border-radius: 5px;
+        padding: 25px;
+        font-size: 1.5rem;
+        text-align: center;
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        transition: all 0.3s ease;
+      }
+    
+    .box-1:hover {
+        background-color: darkblue; 
+        color: white;  
+        transform: scale(1.2);
+    }
+    
+    .box-2 {
+        background-color: purple;
+        color: rgb(27, 27, 27);
+        border-radius: 5px;
+        padding: 25px;
+        font-size: 1.5rem;
+        text-align: center;
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        transition: all 0.3s ease;
+    }
+    
+    .box-2:hover {
+        background-color: lightslategray; 
+        color: white;  
+        transform: scale(1.2);
+    }
+    
+    .box-3 {
+        background-color: gray;
+        color: rgb(27, 27, 27);
+        border-radius: 5px;
+        padding: 25px;
+        font-size: 1.5rem;
+        text-align: center;
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        transition: all 0.3s ease;
+    }
+
+    .box-3:hover {
+        background-color: darkgray; 
+        color: white;  
+        transform: scale(1.2);
+    }
+    
+    .box-4 {
+        background-color: brown;
+        color: rgb(27, 27, 27);
+        border-radius: 5px;
+        padding: 25px;
+        font-size: 1.5rem;
+        text-align: center;
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        transition: all 0.3s ease;
+    }
+    
+    .box-4:hover {
+        background-color: lightcoral; 
+        color: white;  
+        transform: scale(1.2);
+    }
+    
+}
+
