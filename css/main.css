@@ -73,7 +73,7 @@ body {
   }
 
 .box-1:hover {
-    background-color: darkpink; 
+    background-color: palevioletred; 
     color: white;  
     transform: scale(1.1);
 }
